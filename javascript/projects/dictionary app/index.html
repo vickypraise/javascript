@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICTIONARY APPLICATION</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="head">
+    <div class="dic">
+        <marquee behavior="scoll" direction="right"><h1>DICTIONARY APP</h1></marquee>
+    </div>
+    <div class="sub">
+       <h2>English dictionary</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+         <input type="text" class="form-control" placeholder="Enter word" id="input">
+      </div>
+    </div>
+    <button onclick="search()" class="btn btn-primary">search</button>
+    <h4 class="words" id="word"></h4>
+    <p class="display" id="definition"> display meaning of words</p>
+    <p class="errors" id="error">display errors</p>
+    <audio src="" controls="" id="audio">speak</audio>
+
+    <script src="index.js"></script>
+    </body>
+</html>

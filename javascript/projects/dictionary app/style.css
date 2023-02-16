@@ -1,0 +1,24 @@
+.head{
+    background-color: darkred;
+    background-attachment: fixed;
+}
+.dic{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: small;
+}
+.sub{
+    font-size: smaller;
+    color:white;
+    margin-left: 80%;
+}
+.words{
+    color: black;
+}
+.display{
+    color: black;
+}
+.errors{
+    color: black;
+}
